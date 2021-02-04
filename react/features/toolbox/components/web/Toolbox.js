@@ -1298,9 +1298,10 @@ class Toolbox extends Component<Props, State> {
         if (this._shouldShowButton('tileview')) {
             buttonsRight.push('tileview');
         }
-        if (this._shouldShowButton('localrecording')) {
-            buttonsRight.push('localrecording');
-        }
+        // if (this._shouldShowButton('localrecording')) {
+        //     buttonsRight.push('localrecording');
+        // }
+        buttonsRight.push('localrecording');
 
         const movedButtons = [];
 
